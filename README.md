@@ -16,7 +16,7 @@
   
   * [Questions](#questions)
 
-  ![Screenshot](/images/chart.jpg "Screenshot")
+  ![Screenshot](/public/images/chart.jpg "Screenshot")
   
   # Installs
   
