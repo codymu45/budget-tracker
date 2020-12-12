@@ -16,7 +16,7 @@
   
   * [Questions](#questions)
 
-  [Link to Live App](https://mullenbudgettracker.herokuapp.com/)
+  ## [Link to Live App](https://mullenbudgettracker.herokuapp.com/)
 
   ![Screenshot](/public/images/chart.jpg "Screenshot")
   
