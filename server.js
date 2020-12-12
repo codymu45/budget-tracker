@@ -14,16 +14,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
+app.use(require("./routes/api.js"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/budget',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
+  process.env.MONGODB_URI || "mongodb://localhost/budget", {
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true, 
+  useFindAndModify: false
+}).then(() => console.log("Connected to Mongodb"))
+.catch((err) => console.log(err));
 
 
 // routes
