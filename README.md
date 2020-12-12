@@ -34,7 +34,7 @@
   
   # Tests
   
-  To run the app, run the following command in the terminal: node app.js
+  To run the app, run the following command in the terminal: node server.js
   
   # Questions
   
